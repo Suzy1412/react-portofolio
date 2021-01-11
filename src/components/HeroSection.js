@@ -22,7 +22,7 @@ function HeroSection() {
           buttonStyle='btn--primery'
           buttonSize='btn--large'
         >
-          Watch Triler <i className='far fa-play-circle' />
+          YouTube Chanell<i className='far fa-play-circle' />
         </Button>
        
       </div>
