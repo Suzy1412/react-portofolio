@@ -1,72 +1,92 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   
-  .hero-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-  }
-  
+}
+
+.hero-conteiner {
+  border: 5px solid;
+  display: block;
+  height: 700px;
+ 
+}
+
+.min-con{
+  border: red 5px solid;
+  margin-top: 120px;
+  width: 800px;
+  height: 400px;
+  font-size: 3rem;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.5rem;
+ 
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.p-button {
+  color: rgb(237, 11, 33);
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-btns {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+.skills-flex-container,
+.skill-transition {
+  margin: 1.9rem;
+  height: 4rem;
+  opacity: 0.9;
+  filter: brightness(100%) drop-shadow(2px 2px 1px #7e8182);
+ 
+}
+
+@media screen and (max-width: 960px) {
   .hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
     margin-top: -100px;
   }
-  
+
   .hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
   }
-  
-  .hero-btns {
-    margin-top: 32px;
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
   }
-  
-  .hero-btns .btn {
-    margin: 6px;
+
+  .btn {
+    width: 100%;
   }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  }
+}

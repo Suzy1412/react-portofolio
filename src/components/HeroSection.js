@@ -5,10 +5,14 @@ import './HeroSection.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
-      <video src="/videos/video.mp4" autoPlay loop muted />
-      <h1>Suzana Jovanović</h1>
-      <p>Web Developer</p>
+    <div className='hero'>
+      <div className="hero-conteiner">
+      <div className="min-con">
+      <h1>
+        My name is Suzana,
+        <p>I am a Full Stack Web Developer based in Berlin.</p>
+     </h1>
+    <p className="p-button">PLEASED TO MEET YOU</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -17,16 +21,15 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primery'
-          buttonSize='btn--large'
-        >
-          YouTube Chanell<i className='far fa-play-circle' />
-        </Button>
+        
+        </div>
+        </div>
+        </div>
+       
+
        
       </div>
-    </div>
+   
   );
 }
 
