@@ -11,22 +11,28 @@ import SignUp from './components/pages/SingUp';
 
 
 
-function App() {
-  return (
-    <>
-      <Router>
-        <Navbar />
+
+function App  ()  {
+ 
+    return (
+      <>
       
-        <Switch>
-        
-          <Route path='/' exact component={Home} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/aboutme' component={Aboutme} />
-          <Route path='/sign-up' component={SignUp} />
-        </Switch>
-      </Router>
-    </>
-  );
-}
+       
+        <Router>
+          <Navbar />
+         
+          <Switch>
+          
+            <Route path='/' exact component={Home} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/aboutme' component={Aboutme} />
+            <Route path='/sign-up' component={SignUp} />
+          </Switch>
+        </Router>
+      </>
+    );
+  }
+  
+
 
 export default App;

@@ -1,12 +1,37 @@
 import React from "react";
 import "../../App.css";
+import Particles from 'react-particles-js';
 
 
 export default function Aboutme() {
   return (
     <h1 className="aboutme">
-      <div>
+      
+      <div className="about">
+      <Particles
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 160
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}}
+   />
+      
         <div className="Card">
+
+          
           <div className="upper-container">
             <div className="image-container">
             <img
