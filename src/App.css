@@ -6,10 +6,7 @@
 }
 
 
-.home,
-.aboutme,
-.contact,
-.sing-up{
+.home{
   height: 100vh;
   width: 100%;
   display: flex;
@@ -25,15 +22,37 @@
   font-size: 1.5rem;
 }
 
-.about{
+.sing-up{
   height: 100vh;
   width: 100%;
   background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+
+.About{
+  height: 100vh;
+  width: 100%;
+  font-size: 3rem;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.5rem;
+}
+
+.Contact{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 h3{
   margin-left: 120px;
@@ -59,32 +78,88 @@ h3{
   margin-top: -800px;
   
 }
-.Card {
-  margin-left: 300px;
-  width: 800px;
+.about-mini-con{
   height: auto;
   background-color: rgba(235, 186, 247, 0.1);
   border-radius: 10px;
   box-shadow: 0px 1px 10px 1px;
   margin: 50px 40px 10px;
+  margin-top: -720px;
+  margin-left: 500px;
+  width: 800px;
+  font-size: 3rem;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.5rem;
+}
+
+
+.contact-conteiner, .singup-conteiner{
+  border: 5px solid;
+  display: block;
+  height: 700px;
+ 
+}
+
+
+.min-connteiner-con, .min.con {
+  height: auto;
+  background-color: rgba(235, 186, 247, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px;
+  margin: 50px 40px 10px;
+  margin-top: -720px;
+  margin-left: 500px;
+  width: 800px;
+  font-size: 3rem;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.5rem;
+ 
+  
 }
 
 li {
   padding: 0 1.875rem 1.25rem;
   list-style: none;
+
 }
 
 .ft-social-list {
-  margin-top: -100px;
   display: flex;
   justify-content: center;
+  
  
  
 }
 
-.ft-social-list li {
+.ft-social-list .fab, .ft-social-list  .fas {
   margin: 0.5rem;
   font-size: 5.25rem;
+  color: #fff;
+
+  
 }
+
+@media screen and (max-width: 1366px) {
+  .about-mini-con  {
+    font-size: 10px;
+    margin-top: 380px;
+    margin-left: 100px;
+    width: 800px;
+    
+    
+    
+    
+  }
+  img{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+
+
+
 
 

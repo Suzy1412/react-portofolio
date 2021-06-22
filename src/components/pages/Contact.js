@@ -1,10 +1,35 @@
 import React from 'react';
 import '../../App.css';
+import Particles from 'react-particles-js';
+
+
 
 export default function Contact() {
-  return <h1 className='contact'>
-     <div className='ft-social'>
-     <div className='ft-social'>
+  return <h1 className='Contact'>
+   
+  
+     <Particles
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 160
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}}
+   />
+   <div className='contact-conteiner'>
+   <div className='min-connteiner-con'>
               <ul className='ft-social-list'>
                 <li>
                   <a href='https://github.com/Suzy1412'><i className='fab fa-github'></i></a>

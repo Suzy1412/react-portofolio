@@ -5,9 +5,9 @@ import Particles from 'react-particles-js';
 
 export default function Aboutme() {
   return (
-    <h1 className="aboutme">
+    <h1 className="About">
       
-      <div className="about">
+      
       <Particles
     params={{
 	    "particles": {
@@ -27,9 +27,9 @@ export default function Aboutme() {
 	        }
 	    }
 	}}
-   />
+   /><div className="about-conteiner">
       
-        <div className="Card">
+        <div className="about-mini-con">
 
           
           <div className="upper-container">
